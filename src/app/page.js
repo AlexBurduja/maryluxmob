@@ -1,95 +1,65 @@
+"use client"
 import Image from "next/image";
-import styles from "./page.module.css";
+import { MdOutlineMail } from "react-icons/md";
+import { IoCallOutline } from "react-icons/io5";
+import { CiMapPin } from "react-icons/ci";
+import Slider from "@madzadev/image-slider";
+import "@madzadev/image-slider/dist/index.css";
 
 export default function Home() {
+  const images = [
+    { url: "/pozaMobila.jpg" },
+    { url: "/pozaMobila2.jpg" },
+    { url: "/pozaMobila3.jpg" },
+    { url: "/pozaMobila4.jpg" },
+    { url: "/pozaMobila5.jpg" },
+  ];
+  
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <div className="firstHeader">
+        <p><MdOutlineMail/> email@yahoo.com</p>
+        <p><IoCallOutline/> +407932021</p>
+        <p><CiMapPin /> Str. Unirii Nr.123</p>
+      </div>
+
+      <div className="secondHeaderWrapper">
+        <div className="secondHeader">
+          <img src="/logo.svg"/>      
+          <p>Bucatarie</p>
+          <p>Living</p>
+          <p>Dormitor</p>
+          <p>Dressing</p>
+          <p>Mobilier Copii</p>
+          <p>Lucrari</p>
+          <p>Contact</p>
         </div>
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="sliderDiv">
+        <Slider imageList={images} width={1920} height={600} showArrowControls={true}/>
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      <div className="footer">
+        <div>
+          <h1>Informatii Utile</h1>
+          <h6>Informatii Utile</h6>
+          <h6>Informatii Utile</h6>
+          <h6>Informatii Utile</h6>
+          <h6>Informatii Utile</h6>
+        </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+        <div>
+          <h1>Contact</h1>
+          <h6>Contact</h6>
+          <h6>Contact</h6>
+          <h6>Contact</h6>
+          <h6>Contact</h6>
+        </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
       </div>
+    
+    
     </main>
   );
 }

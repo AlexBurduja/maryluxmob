@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 755.88 498.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1b1464;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #ed1c24;
+      }
+
+      .cls-4 {
+        font-family: SourceSansItalic-BlackItalic, 'Source Sans Variable';
+        font-size: 180px;
+        font-variation-settings: 'wght' 900;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #1b1464;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-6 {
+        fill: red;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-4" transform="translate(346.93 149.4)"><tspan class="cls-1"><tspan x="0" y="0">Mary</tspan></tspan><tspan class="cls-6"><tspan class="cls-2" x="0" y="150">L</tspan><tspan x="90.72" y="150">ux</tspan></tspan><tspan class="cls-1"><tspan x="0" y="300">Mob</tspan></tspan></text>
+    <line class="cls-5" x1="328" y1="18.46" x2="328" y2="451.46"/>
+    <g>
+      <path class="cls-3" d="M293.88,219.65h-110.2V91.08c0-3.38-2.74-6.12-6.12-6.12H6.12c-3.38,0-6.12,2.74-6.12,6.12V378.84c0,3.38,2.74,6.12,6.12,6.12H168.37c3.38,0,6.12-2.74,6.12-6.12v-18.37h73.47v18.37c0,3.38,2.74,6.12,6.12,6.12h21.43c3.38,0,6.12-2.74,6.12-6.12v-18.37h3.06c3.38,0,6.12-2.74,6.12-6.12v-101.02h3.06c3.38,0,6.12-2.74,6.12-6.12v-21.43c0-3.38-2.74-6.12-6.12-6.12ZM85.71,372.72H12.24v-52.04H85.71v52.04Zm0-64.29H12.24V97.21H85.71v211.22Zm55.1,64.29h-42.86V97.21h73.47v122.45h-45.92c-3.38,0-6.12,2.74-6.12,6.12v21.43c0,3.38,2.74,6.12,6.12,6.12h6.12v101.02c0,3.38,2.74,6.12,6.12,6.12h3.06v12.24Zm21.43,0h-9.18v-12.24h9.18v12.24Zm107.14,0h-9.18v-12.24h9.18v12.24Zm9.18-24.49H143.88v-42.86h134.69v42.86Zm0-55.1H143.88v-39.8h134.69v39.8Zm9.18-52.04H131.63v-9.18h156.12v9.18Z"/>
+      <rect class="cls-3" x="202.04" y="265.57" width="18.37" height="12.24"/>
+      <rect class="cls-3" x="202.04" y="317.61" width="18.37" height="12.24"/>
+      <rect class="cls-3" x="110.2" y="182.92" width="12.24" height="24.49"/>
+      <rect class="cls-3" x="61.22" y="182.92" width="12.24" height="24.49"/>
+      <rect class="cls-3" x="39.8" y="339.04" width="18.37" height="12.24"/>
+    </g>
+  </g>
+</svg>
